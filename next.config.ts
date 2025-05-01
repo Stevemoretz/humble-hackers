@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: '/humble-hacker',
-    assetPrefix: '/humble-hacker/',
+    basePath: '/humble-hackers',
+    assetPrefix: '/humble-hackers/',
     images: {
         unoptimized: true,
     },
