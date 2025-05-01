@@ -1,11 +1,17 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
     output: 'export',
-    basePath: '/humble-hackers',
-    assetPrefix: '/humble-hackers/',
+    basePath: isProd ? '/humble-hackers' : '',
+    assetPrefix: isProd ? '/humble-hackers/' : '',
+    publicRuntimeConfig: {
+        basePath: "/humble-hackers",
+    },
     images: {
         unoptimized: true,
     },
+    trailingSlash: true,
 };
 
-module.exports = nextConfig;
+export default nextConfig;

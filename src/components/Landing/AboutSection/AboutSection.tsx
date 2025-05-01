@@ -1,6 +1,7 @@
 import Button from "@/components/common/Button";
 import GeneralContent from "@/components/common/GeneralContent";
 import Image from 'next/image';
+import nextConfig from "../../../../next.config";
 
 export default function AboutSection() {
     return (
@@ -9,7 +10,7 @@ export default function AboutSection() {
                 <div className="flex flex-col md:flex-row items-start gap-x-18 gap-y-2">
                     <div className="w-full md:w-1/2">
                         <Image
-                            src="/about-us.png"
+                            src={`${nextConfig.basePath}/landing/about-us.png`}
                             alt="Team working together"
                             width={600}
                             height={400}

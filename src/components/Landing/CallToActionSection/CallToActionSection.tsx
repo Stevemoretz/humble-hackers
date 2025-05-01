@@ -1,9 +1,10 @@
 import Button from "@/components/common/Button";
 import GeneralContent from "@/components/common/GeneralContent";
+import nextConfig from "../../../../next.config";
 
 export default function CallToActionSection() {
     return (
-        <section className="relative bg-cover bg-center bg-[url(/landing/call-to-action.png)]">
+        <section className={`relative bg-cover bg-center bg-[url(${nextConfig.basePath}/landing/call-to-action.png)]`}>
             <div className="backdrop-brightness-[30%] py-16 sm:py-18 lg:py-20 text-center">
                 <GeneralContent
                     className="text-white"

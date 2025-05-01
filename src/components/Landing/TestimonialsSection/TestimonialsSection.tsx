@@ -6,12 +6,12 @@ const testimonials = [
     {
         testimonial: "The Humble Hacker transformed our online presence! Their innovative solutions and dedicated team took our brand to new heights. We've seen incredible growth and engagement since partnering with them.",
         clientName: "John Smith",
-        avatarSrc: "/avatars/john-smith.png",
+        avatarSrc: "/landing/avatars/john-smith.png",
     },
     {
         testimonial: "Working with The Humble Hacker was a game-changer for us. Their creativity and use of technology brought our vision to life, making our brand more relevant in the digital space.",
         clientName: "Mike Johnson",
-        avatarSrc: "/avatars/mike-johnson.png",
+        avatarSrc: "/landing/avatars/mike-johnson.png",
     },
 ];
 

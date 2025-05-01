@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import nextConfig from "../../../../next.config";
 
 interface TestimonialCardProps {
     testimonial: string;
@@ -24,7 +25,7 @@ export default function TestimonialCard({ testimonial, clientName, avatarSrc }: 
             {/* Client Info */}
             <div className="flex items-center">
                 <Image
-                    src={avatarSrc}
+                    src={`${nextConfig.basePath}${avatarSrc}`}
                     alt={`${clientName} avatar`}
                     width={40}
                     height={40}
