@@ -30,11 +30,7 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Step 5: Export static files
-      - name: Export Static Files
-        run: npx next export
-
-      # Step 6: Deploy to GitHub Pages
+      # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:

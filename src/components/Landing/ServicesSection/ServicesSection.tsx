@@ -22,25 +22,21 @@ export default function ServicesSection() {
                         number="01."
                         title="Content Marketing Strategy"
                         description="We craft tailored content strategies powered by AI and data, designed to elevate your brand’s voice, engage your audience, and drive measurable results."
-                        href="/#"
                     />
                     <ServiceCard
                         number="02."
                         title="AI /VR Solutions"
                         description="Harness the power of Artificial Intelligence and Virtual Reality to create immersive and impactful experiences that drive your business forward."
-                        href="/#"
                     />
                     <ServiceCard
                         number="03."
                         title="Tech Research & Insights"
                         description="Stay ahead of the curve with our deep dives into the latest trends in AI, VR, and other emerging technologies with clear, actionable insights."
-                        href="/#"
                     />
                     <ServiceCard
                         number="04."
                         title="App Development"
                         description="We don’t just talk about tech—we build it! Our apps are designed to harness the power of futuristic technologies and put it right in your hands."
-                        href="/#"
                     />
                 </div>
             </div>
