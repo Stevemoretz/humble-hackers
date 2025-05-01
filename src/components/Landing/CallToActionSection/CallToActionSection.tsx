@@ -7,7 +7,7 @@ export default function CallToActionSection() {
         <section className={`relative bg-cover bg-center`} style={{
             backgroundImage: `url(${nextConfig.basePath}/landing/call-to-action.png)`
         }}>
-            <div className="backdrop-brightness-[30%] py-16 sm:py-18 lg:py-20 text-center">
+            <div className="backdrop-brightness-[30%] py-16 sm:py-18 lg:py-20 text-center px-4 sm:px-6 lg:px-8">
                 <GeneralContent
                     className="text-white"
                     subtitle="JOIN US"
