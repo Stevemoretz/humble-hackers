@@ -4,11 +4,15 @@ import nextConfig from "../../../../next.config";
 
 export default function FinalCallToActionSection() {
     return (
-        <section className={`bg-purple-900 text-white bg-cover bg-center bg-[url(${nextConfig.basePath}/landing/final-cta-bg.png)]`}>
+        <section className={`bg-purple-900 text-white bg-cover bg-center`} style={{
+            backgroundImage: `url(${nextConfig.basePath}/landing/final-cta-bg.png)`
+        }}>
             <div className="backdrop-brightness-[30%]">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-20 py-12 sm:py-16 lg:py-20 container mx-auto px-4 sm:px-6 lg:px-8 py-4">
                     {/* Image Section */}
-                    <div className={`relative w-full h-64 sm:h-80 lg:h-120 bg-cover bg-center bg-[url(${nextConfig.basePath}/landing/footer-cta.jpg)]`}></div>
+                    <div className={`relative w-full h-64 sm:h-80 lg:h-120 bg-cover bg-center`} style={{
+                        backgroundImage: `url(${nextConfig.basePath}/landing/footer-cta.jpg)`
+                    }}></div>
 
                     {/* Content Section */}
                     <div className="flex flex-col justify-center items-start">

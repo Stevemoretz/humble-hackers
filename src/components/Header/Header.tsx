@@ -18,7 +18,9 @@ const navLinks = [
 
 export default function Header(props: Props) {
     return (
-        <header className={`bg-cover bg-center bg-[url(${nextConfig.basePath}/landing/hero-bg.png)] relative`}>
+        <header className={`bg-cover bg-center relative`} style={{
+            backgroundImage: `url(${nextConfig.basePath}/landing/hero-bg.png)`
+        }}>
             <div className="backdrop-brightness-[30%]">
                 <div className="absolute w-full top-0 bg-transparent z-50">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
