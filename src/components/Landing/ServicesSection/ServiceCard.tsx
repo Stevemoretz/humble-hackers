@@ -2,10 +2,9 @@ interface CardProps {
     number: string;
     title: string;
     description: string;
-    href: string;
 }
 
-export default function ServiceCard({ number, title, description, href }: CardProps) {
+export default function ServiceCard({ number, title, description}: CardProps) {
     return (
         <div className="bg-white p-6 sm:p-8">
             <div className="flex flex-row justify-center gap-10">

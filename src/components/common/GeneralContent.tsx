@@ -4,7 +4,6 @@ interface HeroContentProps {
     subtitle?: React.ReactNode;
     title?: React.ReactNode;
     description?: React.ReactNode;
-    showDescription?: boolean;
     subtitleClass?: string;
     titleClass?: string;
     descriptionClass?: string;
@@ -15,7 +14,6 @@ export default function GeneralContent({
                                         subtitle,
                                         title,
                                         description,
-                                        showDescription = true,
                                         subtitleClass,
                                         titleClass,
                                         descriptionClass,
@@ -30,6 +28,8 @@ export default function GeneralContent({
                 title={<h2 className="text-2xl md:text-4xl mt-6 font-extrabold md:leading-13">{title}</h2>}
                 description={<span>{description}</span>}
                 descriptionClass={descriptionClass}
+                subtitleClass={subtitleClass}
+                titleClass={titleClass}
             />
         </div>
     )

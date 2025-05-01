@@ -1,6 +1,5 @@
-import GeneralContent from "@/components/common/GeneralContent";
 import Button from "@/components/common/Button";
-import Image from "next/image";
+import GeneralContent from "@/components/common/GeneralContent";
 
 export default function FinalCallToActionSection() {
     return (

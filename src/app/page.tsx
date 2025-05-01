@@ -1,13 +1,13 @@
 import Footer from "@/components/Footer/Footer";
-import HeroSection from "@/components/Landing/Header/HeroSection";
 import CallToActionSection from "@/components/Landing/CallToActionSection/CallToActionSection";
 import FinalCallToActionSection from "@/components/Landing/FinalCallToActionSection/FinalCallToActionSection";
 import GallerySection from "@/components/Landing/GallerySection/GallerySection";
+import HeroSection from "@/components/Landing/Header/HeroSection";
 import ServicesSection from "@/components/Landing/ServicesSection/ServicesSection";
 import TestimonialsSection from "@/components/Landing/TestimonialsSection/TestimonialsSection";
 import WhyChooseUsSection from "@/components/Landing/WhyChooseUsSection/WhyChooseUsSection";
-import AboutSection from '../components/Landing/AboutSection/AboutSection';
 import Header from '../components/Header/Header';
+import AboutSection from '../components/Landing/AboutSection/AboutSection';
 
 export default function Home() {
     return (

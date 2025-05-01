@@ -1,7 +1,6 @@
+import Button from "@/components/common/Button";
 import GeneralContent from "@/components/common/GeneralContent";
 import Image from 'next/image';
-import HeroContent from "@/components/common/HeroContent";
-import Button from "@/components/common/Button";
 
 export default function AboutSection() {
     return (

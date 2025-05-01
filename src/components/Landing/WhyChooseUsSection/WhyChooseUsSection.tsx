@@ -46,7 +46,7 @@ export default function WhyChooseUsSection() {
                         subtitle="WHY CHOOSE US"
                         title={
                             <>
-                                We're more than just cool tech. <br />
+                                We&apos;re more than just cool tech. <br />
                                 We help you <span className="bg-purple-800 text-white px-2 py-1">Navigate</span> and <span className="bg-purple-800 text-white px-2 py-1">Thrive</span> in the ever-evolving world of online innovation
                             </>
                         }

@@ -1,5 +1,5 @@
-import GeneralContent from "@/components/common/GeneralContent";
 import Button from "@/components/common/Button";
+import GeneralContent from "@/components/common/GeneralContent";
 
 export default function CallToActionSection() {
     return (
